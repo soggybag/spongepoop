@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint src --ext .js,.jsx",
     "test": "jest",
+    "coverage": "npm test -- --coverage",
     "build:commonjs": "babel src --out-dir lib",
     "build:umd": "cross-env FILE_NAME=spongepoop webpack",
     "build:umd:min": "cross-env NODE_ENV=production npm run build:umd",

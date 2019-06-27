@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/soggybag/spongepoop.svg?branch=master)](https://travis-ci.org/soggybag/spongepoop)
+
 # spongepoop
 
 Testing build with webpack, babel, and more. 
